@@ -11,8 +11,8 @@ onix-api:
         memory: 100Mi
 
     env:
-      - name: GOOGLE_APPLICATION_CREDENTIALS
-        value: '/secrets/sa.json'
+      #- name: GOOGLE_APPLICATION_CREDENTIALS
+      #  value: '/secrets/sa.json'
 
       #- name: STORAGE_BUCKET
       #  value: 'onix-v2-artifacts'
