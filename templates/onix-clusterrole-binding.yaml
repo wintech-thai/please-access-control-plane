@@ -2,12 +2,12 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
-  name: please-erp-crb-{{ .Values.envAlias }}
+  name: please-access-crb-{{ .Values.envAlias }}
 subjects:
 - kind: ServiceAccount
-  name: please-erp-sa
-  namespace: please-erp-{{ .Values.envAlias }}
+  name: please-access-sa
+  namespace: please-access-{{ .Values.envAlias }}
 roleRef:
   kind: ClusterRole
-  name: please-erp-cr-{{ .Values.envAlias }}
+  name: please-access-cr-{{ .Values.envAlias }}
   apiGroup: rbac.authorization.k8s.io
