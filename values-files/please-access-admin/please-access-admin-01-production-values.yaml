@@ -24,7 +24,7 @@ admin:
         value: 'https://api.please-erp.com'
 
       - name: BACKEND_URL
-        value: 'http://please-erp-prod-onix-api'
+        value: 'http://please-access-prod-onix-api'
 
       - name: NEXT_PUBLIC_PROVIDER_URL
         value: 'https://dev-hubs.com'
