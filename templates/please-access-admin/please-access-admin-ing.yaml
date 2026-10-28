@@ -19,6 +19,6 @@ spec:
             pathType: Prefix
             backend:
               service:
-                name: please-erp-{{ .Values.envGroup }}-admin
+                name: please-access-{{ .Values.envGroup }}-admin
                 port:
                   number: 80
