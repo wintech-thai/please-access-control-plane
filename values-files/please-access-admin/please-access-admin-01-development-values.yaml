@@ -21,10 +21,10 @@ admin:
         value: 'Development'
 
       - name: NEXT_PUBLIC_API_URL
-        value: 'https://api-dev.please-erp.com'
+        value: 'https://api-dev.please-access.com'
 
       - name: BACKEND_URL
-        value: 'http://please-erp-dev-onix-api'
+        value: 'http://please-access-dev-onix-api'
 
       - name: NEXT_PUBLIC_PROVIDER_URL
         value: 'https://web-dev.dev-hubs.com'
