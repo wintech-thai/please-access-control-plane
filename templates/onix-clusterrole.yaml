@@ -2,7 +2,7 @@
 apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
-  name: please-erp-cr-{{ .Values.envAlias }}
+  name: please-access-cr-{{ .Values.envAlias }}
 rules:
   # Pods
   - apiGroups: [""]

@@ -11,8 +11,8 @@ onix-api:
         memory: 100Mi
 
     env:
-      - name: GOOGLE_APPLICATION_CREDENTIALS
-        value: '/secrets/sa.json'
+      #- name: GOOGLE_APPLICATION_CREDENTIALS
+      #  value: '/secrets/sa.json'
 
       #- name: STORAGE_BUCKET
       #  value: 'onix-v2-artifacts'
@@ -47,7 +47,7 @@ onix-api:
             optional: false
 
       - name: Redis__Host
-        value: "redis-master"
+        value: "please-access-dev-redis"
 
       - name: Redis__Port
         value: "6379"

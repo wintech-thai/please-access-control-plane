@@ -19,7 +19,7 @@ service:
 persistence:
   enabled: true
   storageClass: ""
-  size: 100Gi
+  size: 30Gi
   accessModes:
     - ReadWriteOnce
     
