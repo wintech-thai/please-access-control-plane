@@ -1,0 +1,11 @@
+---
+envAlias: development
+envAliasJob: Development
+envGroup: dev
+
+domainOnixAPI: api-dev.please-access.local
+adminDomain: admin-dev.please-access.local
+tenantDomain: tenant-dev.please-access.local
+
+pgDiskSize: 20Gi
+pgHost: postgresql-onix-v2
