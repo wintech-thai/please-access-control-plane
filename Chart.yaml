@@ -1,0 +1,43 @@
+apiVersion: v2
+name: helm-onix
+description: A Helm chart for Please Payment
+
+type: application
+version: 1.0.0
+appVersion: "1.0"
+
+dependencies:
+
+  ### PostgreSQL V2 ###
+  - name: "postgresql-v2"
+    alias: postgresql-v2
+    condition: postgresql-v2.enabled
+    version: "1.0.0"
+
+  ### Redis / Valkey ###
+  - name: valkey
+    alias: redis
+    condition: redis.enabled
+    repository: "https://valkey.io/valkey-helm/"
+    version: "0.12.0"
+
+  ### Onix API ###
+  - name: "generic-app"
+    alias: onix-api
+    condition: onix-api.enabled
+    repository: "https://charts.visonneau.fr/"
+    version: "0.0.14"
+
+  ## Please Access Tenant ###
+  - name: "generic-app"
+    alias: tenant
+    condition: tenant.enabled
+    repository: "https://charts.visonneau.fr/"
+    version: "0.0.14"
+
+  ## Please Access Admin ###
+  - name: "generic-app"
+    alias: admin
+    condition: admin.enabled
+    repository: "https://charts.visonneau.fr/"
+    version: "0.0.14"

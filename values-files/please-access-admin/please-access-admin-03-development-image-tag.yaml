@@ -1,0 +1,5 @@
+
+admin:
+  pods:
+    image:
+      tag: "main-38545ff"

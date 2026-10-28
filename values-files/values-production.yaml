@@ -1,0 +1,12 @@
+---
+envAlias: production
+envAliasJob: Production
+
+envGroup: prod
+
+domainOnixAPI: api-prod.please-access.local
+adminDomain: admin-prod.please-access.local
+tenantDomain: tenant-prod.please-access.local
+
+pgDiskSize: 50Gi
+pgHost: postgresql-onix-v2
