@@ -47,7 +47,7 @@ onix-api:
             optional: false
 
       - name: Redis__Host
-        value: "redis-master"
+        value: "please-access-dev-redis"
 
       - name: Redis__Port
         value: "6379"
