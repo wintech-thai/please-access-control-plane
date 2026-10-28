@@ -10,11 +10,13 @@ redis:
 
   dataStorage:
     enabled: true
-    size: 8Gi
-    storageClass: ""
+    requestedSize: 8Gi
+    className: ""
     accessModes:
       - ReadWriteOnce
-    keepOnUninstall: true
+    keepPvc: true
+    persistentVolumeClaimName: ""
+    volumeName: valkey-data
 
   auth:
     enabled: false
