@@ -28,7 +28,7 @@ tenant:
     #  periodSeconds: 10
 
     image:
-      name: pjamenaja/please-erp-console
+      name: pjamenaja/please-access-console
 
     #volumeMounts:
     #  - name: secrets
