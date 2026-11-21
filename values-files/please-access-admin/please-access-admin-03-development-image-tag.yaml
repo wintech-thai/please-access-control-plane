@@ -2,4 +2,4 @@
 admin:
   pods:
     image:
-      tag: "develop-ebcc480"
+      tag: "develop-e23370b"
