@@ -41,3 +41,9 @@ dependencies:
     condition: admin.enabled
     repository: "https://charts.visonneau.fr/"
     version: "0.0.14"
+
+  ## Free Radius ###
+  - name: freeradius
+    version: 1.2.0
+    repository: https://startechnica.github.io/apps
+    alias: freeradius
