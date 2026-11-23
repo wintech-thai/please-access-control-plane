@@ -43,8 +43,8 @@ dependencies:
     version: "0.0.14"
 
   ## Free Radius ###
-  - name: freeradius
-    version: 1.2.0
-    condition: freeradius.enabled
-    repository: https://startechnica.github.io/apps
-    alias: freeradius
+  #- name: freeradius
+  #  version: 1.2.0
+  #  condition: freeradius.enabled
+  #  repository: https://startechnica.github.io/apps
+  #  alias: freeradius
