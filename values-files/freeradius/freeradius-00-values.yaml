@@ -1,6 +1,6 @@
 
 freeradius:
-  enabled: true
+  enabled: false
 
   # ==========================================
   # FreeRADIUS
